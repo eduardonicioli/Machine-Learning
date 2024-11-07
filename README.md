@@ -1,29 +1,22 @@
-# Projeto de Aprendizagem de Máquina - 2024-2
+## Análise de Segmentação de Clientes com Clusterização - Dataset de Vendas
 
-## Sobre o Projeto
-* **Objetivo:** Atividade, cada grupo, de no máximo 2 integrantes, deverá aplicar os conceitos de clusterização
-em algum dataset, a escolha do grupo
-* **Tecnologias:** [Liste as tecnologias utilizadas, como Python, TensorFlow, scikit-learn, etc.]
-* **Dataset:** [Detalhe o conjunto de dados utilizado, sua origem e as principais características]
+**Objetivo:** Identificar grupos de clientes com comportamentos de compra semelhantes em um dataset de vendas de uma loja online.
 
-## Equipe
-* **Carlos Eduardo Nicoli**
-* **Ester de Souza Silva**
+**Metodologia:**
+* **Pré-processamento:** Remoção de outliers, normalização dos dados numéricos.
+* **Modelagem:** Utilização do algoritmo K-means e avaliação com o Silhouette Score.
+* **Visualização:** Utilização de PCA para reduzir a dimensionalidade e visualização dos clusters em um gráfico 2D.
 
-## Estrutura do Projeto
-* [Lista dos principais diretórios e arquivos do projeto, com uma breve descrição de cada um]
+**Resultados:**
+Foram identificados 4 clusters de clientes:
+* **Clientes de alto valor:** Gastam muito e compram com frequência.
+* **Clientes ocasionais:** Compram com menor frequência e gastam menos.
+* **Clientes novos:** Realizaram poucas compras.
+* **Clientes fiéis:** Compram com frequência, mas com um ticket médio menor.
 
-## Resultados
-* [Apresente os resultados obtidos, utilizando gráficos, tabelas ou métricas relevantes]
+[Inserir gráfico de visualização dos clusters]
 
-## Próximos Passos
-* [Liste as próximas etapas do projeto]
+**Conclusão:**
+A análise de clusterização permitiu identificar segmentos de clientes com características distintas, o que pode auxiliar a empresa a desenvolver estratégias de marketing mais personalizadas.
 
-## Contribuições
-* **Como contribuir:** [Explique como outras pessoas podem contribuir com o projeto]
-
-## Licença
-* [Indique a licença utilizada para o projeto]
-
-## Demonstração
-[Insira um link para um notebook Jupyter ou um vídeo demonstrando o funcionamento do projeto]
+[Link para o Jupyter Notebook]
