@@ -1,7 +1,8 @@
 # Projeto de Aprendizagem de Máquina - 2024-2
 
 ## Sobre o Projeto
-* **Objetivo:** [Descreva de forma concisa o objetivo principal do projeto]
+* **Objetivo:** Atividade, cada grupo, de no máximo 2 integrantes, deverá aplicar os conceitos de clusterização
+em algum dataset, a escolha do grupo
 * **Tecnologias:** [Liste as tecnologias utilizadas, como Python, TensorFlow, scikit-learn, etc.]
 * **Dataset:** [Detalhe o conjunto de dados utilizado, sua origem e as principais características]
 
