@@ -26,7 +26,7 @@ Nesta atividade, aplicamos os conceitos de clusterização sobre o dataset Iris.
 Os modelos foram avaliados com base em métricas de desempenho, e discutimos os achados, incluindo possíveis melhorias.
 
 ## Link para o Repositório
-[GitHub Repositório](#)
+[GitHub Repositório](https://github.com/eduardonicioli/Machine-Learning/blob/main/Spectral%20clustering.ipynb)
 
 ## Data de Submissão
 12/11/2024
