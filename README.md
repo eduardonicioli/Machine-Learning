@@ -1,21 +1,26 @@
-## Análise de Segmentação de Clientes com Clusterização - Dataset Iris
-**Objetivo:** Identificar grupos de clientes com comportamentos de compra semelhantes em um dataset de vendas de uma loja online.
+## Análise de Clusterização das Espécies de Iris
 
-**Metodologia:**
-* **Pré-processamento:** Remoção de outliers, normalização dos dados numéricos.
-* **Modelagem:** Utilização do algoritmo K-means e avaliação com o Silhouette Score.
-* **Visualização:** Utilização de PCA para reduzir a dimensionalidade e visualização dos clusters em um gráfico 2D.
+### Introdução
+Este projeto tem como objetivo aplicar técnicas de clusterização para identificar grupos naturais nas espécies de Iris presentes no dataset Iris.csv.
 
-**Resultados:**
-Foram identificados 4 clusters de clientes:
-* **Clientes de alto valor:** Gastam muito e compram com frequência.
-* **Clientes ocasionais:** Compram com menor frequência e gastam menos.
-* **Clientes novos:** Realizaram poucas compras.
-* **Clientes fiéis:** Compram com frequência, mas com um ticket médio menor.
+### Metodologia
+* **Pré-processamento:**
+    * Verificação de dados faltantes e outliers.
+    * **Normalização:** Utilizamos a técnica de Min-Max Scaler para normalizar os dados.
 
-[Inserir gráfico de visualização dos clusters]
+* **Modelagem:**
+    * **Algoritmos:** K-means e Hierárquico.
+    * **Métricas:** Silhouette Score e Calinski-Harabasz Index.
+    * **Visualização:** PCA para redução de dimensionalidade.
 
-**Conclusão:**
-A análise de clusterização permitiu identificar segmentos de clientes com características distintas, o que pode auxiliar a empresa a desenvolver estratégias de marketing mais personalizadas.
+### Resultados
+<p>A análise de clusterização permitiu identificar três grupos distintos, correspondendo às três espécies de Iris.</p>
+
+<img src="iris_clusters.png" alt="Gráfico de dispersão dos clusters de Iris">
+
+<p>A figura acima mostra a distribuição dos clusters após a aplicação do PCA.</p>
+
+### Conclusão
+...
 
 [Link para o Jupyter Notebook]
