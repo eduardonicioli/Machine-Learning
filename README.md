@@ -29,4 +29,4 @@ Os modelos foram avaliados com base em métricas de desempenho, e discutimos os 
 [GitHub Repositório](https://github.com/eduardonicioli/Machine-Learning/blob/main/Spectral%20clustering.ipynb)
 
 ## Data de Submissão
-12/11/2024
+06/11/2024
