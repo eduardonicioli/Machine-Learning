@@ -1,5 +1,4 @@
-## Análise de Segmentação de Clientes com Clusterização - Dataset de Vendas
-
+## Análise de Segmentação de Clientes com Clusterização - Dataset Iris
 **Objetivo:** Identificar grupos de clientes com comportamentos de compra semelhantes em um dataset de vendas de uma loja online.
 
 **Metodologia:**
